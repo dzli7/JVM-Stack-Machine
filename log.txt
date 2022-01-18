@@ -1,0 +1,1482 @@
+Classfile /home/dzli/cs24/project01-dzli/tests/Bitshifts.class
+  Last modified Oct 6, 2021; size 3316 bytes
+  MD5 checksum 53020367bc7d1ed360359137be733f75
+  Compiled from "Bitshifts.j"
+public class Bitshifts
+  minor version: 3
+  major version: 45
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #8                          // Bitshifts
+  super_class: #5                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 1, attributes: 1
+Constant pool:
+   #1 = NameAndType        #19:#21        // out:Ljava/io/PrintStream;
+   #2 = Utf8               ([Ljava/lang/String;)V
+   #3 = Utf8               java/lang/Object
+   #4 = Utf8               Bitshifts.j
+   #5 = Class              #3             // java/lang/Object
+   #6 = Class              #15            // java/io/PrintStream
+   #7 = Methodref          #6.#20         // java/io/PrintStream.println:(I)V
+   #8 = Class              #17            // Bitshifts
+   #9 = Class              #18            // java/lang/System
+  #10 = Utf8               Code
+  #11 = Utf8               main
+  #12 = Fieldref           #9.#1          // java/lang/System.out:Ljava/io/PrintStream;
+  #13 = Utf8               SourceFile
+  #14 = Utf8               (I)V
+  #15 = Utf8               java/io/PrintStream
+  #16 = Utf8               println
+  #17 = Utf8               Bitshifts
+  #18 = Utf8               java/lang/System
+  #19 = Utf8               out
+  #20 = NameAndType        #16:#14        // println:(I)V
+  #21 = Utf8               Ljava/io/PrintStream;
+{
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+         3: sipush        3087
+         6: bipush        12
+         8: ishl
+         9: sipush        4078
+        12: ior
+        13: bipush        0
+        15: ishl
+        16: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+        19: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        22: sipush        3087
+        25: bipush        12
+        27: ishl
+        28: sipush        4078
+        31: ior
+        32: bipush        1
+        34: ishl
+        35: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+        38: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        41: sipush        3087
+        44: bipush        12
+        46: ishl
+        47: sipush        4078
+        50: ior
+        51: bipush        2
+        53: ishl
+        54: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+        57: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        60: sipush        3087
+        63: bipush        12
+        65: ishl
+        66: sipush        4078
+        69: ior
+        70: bipush        3
+        72: ishl
+        73: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+        76: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        79: sipush        3087
+        82: bipush        12
+        84: ishl
+        85: sipush        4078
+        88: ior
+        89: bipush        4
+        91: ishl
+        92: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+        95: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        98: sipush        3087
+       101: bipush        12
+       103: ishl
+       104: sipush        4078
+       107: ior
+       108: bipush        5
+       110: ishl
+       111: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       114: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       117: sipush        3087
+       120: bipush        12
+       122: ishl
+       123: sipush        4078
+       126: ior
+       127: bipush        6
+       129: ishl
+       130: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       133: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       136: sipush        3087
+       139: bipush        12
+       141: ishl
+       142: sipush        4078
+       145: ior
+       146: bipush        7
+       148: ishl
+       149: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       152: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       155: sipush        3087
+       158: bipush        12
+       160: ishl
+       161: sipush        4078
+       164: ior
+       165: bipush        8
+       167: ishl
+       168: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       171: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       174: sipush        3087
+       177: bipush        12
+       179: ishl
+       180: sipush        4078
+       183: ior
+       184: bipush        9
+       186: ishl
+       187: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       190: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       193: sipush        3087
+       196: bipush        12
+       198: ishl
+       199: sipush        4078
+       202: ior
+       203: bipush        10
+       205: ishl
+       206: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       209: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       212: sipush        3087
+       215: bipush        12
+       217: ishl
+       218: sipush        4078
+       221: ior
+       222: bipush        11
+       224: ishl
+       225: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       228: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       231: sipush        3087
+       234: bipush        12
+       236: ishl
+       237: sipush        4078
+       240: ior
+       241: bipush        12
+       243: ishl
+       244: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       247: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       250: sipush        3087
+       253: bipush        12
+       255: ishl
+       256: sipush        4078
+       259: ior
+       260: bipush        13
+       262: ishl
+       263: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       266: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       269: sipush        3087
+       272: bipush        12
+       274: ishl
+       275: sipush        4078
+       278: ior
+       279: bipush        14
+       281: ishl
+       282: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       285: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       288: sipush        3087
+       291: bipush        12
+       293: ishl
+       294: sipush        4078
+       297: ior
+       298: bipush        15
+       300: ishl
+       301: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       304: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       307: sipush        3087
+       310: bipush        12
+       312: ishl
+       313: sipush        4078
+       316: ior
+       317: bipush        16
+       319: ishl
+       320: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       323: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       326: sipush        3087
+       329: bipush        12
+       331: ishl
+       332: sipush        4078
+       335: ior
+       336: bipush        17
+       338: ishl
+       339: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       342: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       345: sipush        3087
+       348: bipush        12
+       350: ishl
+       351: sipush        4078
+       354: ior
+       355: bipush        18
+       357: ishl
+       358: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       361: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       364: sipush        3087
+       367: bipush        12
+       369: ishl
+       370: sipush        4078
+       373: ior
+       374: bipush        19
+       376: ishl
+       377: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       380: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       383: sipush        3087
+       386: bipush        12
+       388: ishl
+       389: sipush        4078
+       392: ior
+       393: bipush        20
+       395: ishl
+       396: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       399: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       402: sipush        3087
+       405: bipush        12
+       407: ishl
+       408: sipush        4078
+       411: ior
+       412: bipush        21
+       414: ishl
+       415: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       418: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       421: sipush        3087
+       424: bipush        12
+       426: ishl
+       427: sipush        4078
+       430: ior
+       431: bipush        22
+       433: ishl
+       434: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       437: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       440: sipush        3087
+       443: bipush        12
+       445: ishl
+       446: sipush        4078
+       449: ior
+       450: bipush        23
+       452: ishl
+       453: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       456: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       459: sipush        3087
+       462: bipush        12
+       464: ishl
+       465: sipush        4078
+       468: ior
+       469: bipush        24
+       471: ishl
+       472: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       475: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       478: sipush        3087
+       481: bipush        12
+       483: ishl
+       484: sipush        4078
+       487: ior
+       488: bipush        25
+       490: ishl
+       491: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       494: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       497: sipush        3087
+       500: bipush        12
+       502: ishl
+       503: sipush        4078
+       506: ior
+       507: bipush        26
+       509: ishl
+       510: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       513: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       516: sipush        3087
+       519: bipush        12
+       521: ishl
+       522: sipush        4078
+       525: ior
+       526: bipush        27
+       528: ishl
+       529: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       532: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       535: sipush        3087
+       538: bipush        12
+       540: ishl
+       541: sipush        4078
+       544: ior
+       545: bipush        28
+       547: ishl
+       548: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       551: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       554: sipush        3087
+       557: bipush        12
+       559: ishl
+       560: sipush        4078
+       563: ior
+       564: bipush        29
+       566: ishl
+       567: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       570: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       573: sipush        3087
+       576: bipush        12
+       578: ishl
+       579: sipush        4078
+       582: ior
+       583: bipush        30
+       585: ishl
+       586: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       589: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       592: sipush        3087
+       595: bipush        12
+       597: ishl
+       598: sipush        4078
+       601: ior
+       602: bipush        31
+       604: ishl
+       605: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       608: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       611: sipush        3087
+       614: bipush        12
+       616: ishl
+       617: sipush        4078
+       620: ior
+       621: bipush        0
+       623: ishr
+       624: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       627: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       630: sipush        3087
+       633: bipush        12
+       635: ishl
+       636: sipush        4078
+       639: ior
+       640: bipush        1
+       642: ishr
+       643: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       646: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       649: sipush        3087
+       652: bipush        12
+       654: ishl
+       655: sipush        4078
+       658: ior
+       659: bipush        2
+       661: ishr
+       662: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       665: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       668: sipush        3087
+       671: bipush        12
+       673: ishl
+       674: sipush        4078
+       677: ior
+       678: bipush        3
+       680: ishr
+       681: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       684: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       687: sipush        3087
+       690: bipush        12
+       692: ishl
+       693: sipush        4078
+       696: ior
+       697: bipush        4
+       699: ishr
+       700: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       703: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       706: sipush        3087
+       709: bipush        12
+       711: ishl
+       712: sipush        4078
+       715: ior
+       716: bipush        5
+       718: ishr
+       719: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       722: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       725: sipush        3087
+       728: bipush        12
+       730: ishl
+       731: sipush        4078
+       734: ior
+       735: bipush        6
+       737: ishr
+       738: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       741: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       744: sipush        3087
+       747: bipush        12
+       749: ishl
+       750: sipush        4078
+       753: ior
+       754: bipush        7
+       756: ishr
+       757: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       760: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       763: sipush        3087
+       766: bipush        12
+       768: ishl
+       769: sipush        4078
+       772: ior
+       773: bipush        8
+       775: ishr
+       776: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       779: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       782: sipush        3087
+       785: bipush        12
+       787: ishl
+       788: sipush        4078
+       791: ior
+       792: bipush        9
+       794: ishr
+       795: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       798: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       801: sipush        3087
+       804: bipush        12
+       806: ishl
+       807: sipush        4078
+       810: ior
+       811: bipush        10
+       813: ishr
+       814: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       817: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       820: sipush        3087
+       823: bipush        12
+       825: ishl
+       826: sipush        4078
+       829: ior
+       830: bipush        11
+       832: ishr
+       833: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       836: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       839: sipush        3087
+       842: bipush        12
+       844: ishl
+       845: sipush        4078
+       848: ior
+       849: bipush        12
+       851: ishr
+       852: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       855: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       858: sipush        3087
+       861: bipush        12
+       863: ishl
+       864: sipush        4078
+       867: ior
+       868: bipush        13
+       870: ishr
+       871: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       874: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       877: sipush        3087
+       880: bipush        12
+       882: ishl
+       883: sipush        4078
+       886: ior
+       887: bipush        14
+       889: ishr
+       890: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       893: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       896: sipush        3087
+       899: bipush        12
+       901: ishl
+       902: sipush        4078
+       905: ior
+       906: bipush        15
+       908: ishr
+       909: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       912: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       915: sipush        3087
+       918: bipush        12
+       920: ishl
+       921: sipush        4078
+       924: ior
+       925: bipush        16
+       927: ishr
+       928: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       931: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       934: sipush        3087
+       937: bipush        12
+       939: ishl
+       940: sipush        4078
+       943: ior
+       944: bipush        17
+       946: ishr
+       947: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       950: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       953: sipush        3087
+       956: bipush        12
+       958: ishl
+       959: sipush        4078
+       962: ior
+       963: bipush        18
+       965: ishr
+       966: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       969: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       972: sipush        3087
+       975: bipush        12
+       977: ishl
+       978: sipush        4078
+       981: ior
+       982: bipush        19
+       984: ishr
+       985: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+       988: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       991: sipush        3087
+       994: bipush        12
+       996: ishl
+       997: sipush        4078
+      1000: ior
+      1001: bipush        20
+      1003: ishr
+      1004: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1007: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1010: sipush        3087
+      1013: bipush        12
+      1015: ishl
+      1016: sipush        4078
+      1019: ior
+      1020: bipush        21
+      1022: ishr
+      1023: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1026: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1029: sipush        3087
+      1032: bipush        12
+      1034: ishl
+      1035: sipush        4078
+      1038: ior
+      1039: bipush        22
+      1041: ishr
+      1042: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1045: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1048: sipush        3087
+      1051: bipush        12
+      1053: ishl
+      1054: sipush        4078
+      1057: ior
+      1058: bipush        23
+      1060: ishr
+      1061: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1064: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1067: sipush        3087
+      1070: bipush        12
+      1072: ishl
+      1073: sipush        4078
+      1076: ior
+      1077: bipush        24
+      1079: ishr
+      1080: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1083: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1086: sipush        3087
+      1089: bipush        12
+      1091: ishl
+      1092: sipush        4078
+      1095: ior
+      1096: bipush        25
+      1098: ishr
+      1099: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1102: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1105: sipush        3087
+      1108: bipush        12
+      1110: ishl
+      1111: sipush        4078
+      1114: ior
+      1115: bipush        26
+      1117: ishr
+      1118: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1121: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1124: sipush        3087
+      1127: bipush        12
+      1129: ishl
+      1130: sipush        4078
+      1133: ior
+      1134: bipush        27
+      1136: ishr
+      1137: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1140: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1143: sipush        3087
+      1146: bipush        12
+      1148: ishl
+      1149: sipush        4078
+      1152: ior
+      1153: bipush        28
+      1155: ishr
+      1156: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1159: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1162: sipush        3087
+      1165: bipush        12
+      1167: ishl
+      1168: sipush        4078
+      1171: ior
+      1172: bipush        29
+      1174: ishr
+      1175: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1178: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1181: sipush        3087
+      1184: bipush        12
+      1186: ishl
+      1187: sipush        4078
+      1190: ior
+      1191: bipush        30
+      1193: ishr
+      1194: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1197: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1200: sipush        3087
+      1203: bipush        12
+      1205: ishl
+      1206: sipush        4078
+      1209: ior
+      1210: bipush        31
+      1212: ishr
+      1213: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1216: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1219: sipush        3087
+      1222: bipush        12
+      1224: ishl
+      1225: sipush        4078
+      1228: ior
+      1229: bipush        0
+      1231: iushr
+      1232: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1235: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1238: sipush        3087
+      1241: bipush        12
+      1243: ishl
+      1244: sipush        4078
+      1247: ior
+      1248: bipush        1
+      1250: iushr
+      1251: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1254: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1257: sipush        3087
+      1260: bipush        12
+      1262: ishl
+      1263: sipush        4078
+      1266: ior
+      1267: bipush        2
+      1269: iushr
+      1270: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1273: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1276: sipush        3087
+      1279: bipush        12
+      1281: ishl
+      1282: sipush        4078
+      1285: ior
+      1286: bipush        3
+      1288: iushr
+      1289: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1292: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1295: sipush        3087
+      1298: bipush        12
+      1300: ishl
+      1301: sipush        4078
+      1304: ior
+      1305: bipush        4
+      1307: iushr
+      1308: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1311: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1314: sipush        3087
+      1317: bipush        12
+      1319: ishl
+      1320: sipush        4078
+      1323: ior
+      1324: bipush        5
+      1326: iushr
+      1327: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1330: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1333: sipush        3087
+      1336: bipush        12
+      1338: ishl
+      1339: sipush        4078
+      1342: ior
+      1343: bipush        6
+      1345: iushr
+      1346: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1349: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1352: sipush        3087
+      1355: bipush        12
+      1357: ishl
+      1358: sipush        4078
+      1361: ior
+      1362: bipush        7
+      1364: iushr
+      1365: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1368: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1371: sipush        3087
+      1374: bipush        12
+      1376: ishl
+      1377: sipush        4078
+      1380: ior
+      1381: bipush        8
+      1383: iushr
+      1384: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1387: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1390: sipush        3087
+      1393: bipush        12
+      1395: ishl
+      1396: sipush        4078
+      1399: ior
+      1400: bipush        9
+      1402: iushr
+      1403: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1406: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1409: sipush        3087
+      1412: bipush        12
+      1414: ishl
+      1415: sipush        4078
+      1418: ior
+      1419: bipush        10
+      1421: iushr
+      1422: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1425: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1428: sipush        3087
+      1431: bipush        12
+      1433: ishl
+      1434: sipush        4078
+      1437: ior
+      1438: bipush        11
+      1440: iushr
+      1441: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1444: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1447: sipush        3087
+      1450: bipush        12
+      1452: ishl
+      1453: sipush        4078
+      1456: ior
+      1457: bipush        12
+      1459: iushr
+      1460: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1463: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1466: sipush        3087
+      1469: bipush        12
+      1471: ishl
+      1472: sipush        4078
+      1475: ior
+      1476: bipush        13
+      1478: iushr
+      1479: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1482: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1485: sipush        3087
+      1488: bipush        12
+      1490: ishl
+      1491: sipush        4078
+      1494: ior
+      1495: bipush        14
+      1497: iushr
+      1498: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1501: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1504: sipush        3087
+      1507: bipush        12
+      1509: ishl
+      1510: sipush        4078
+      1513: ior
+      1514: bipush        15
+      1516: iushr
+      1517: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1520: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1523: sipush        3087
+      1526: bipush        12
+      1528: ishl
+      1529: sipush        4078
+      1532: ior
+      1533: bipush        16
+      1535: iushr
+      1536: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1539: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1542: sipush        3087
+      1545: bipush        12
+      1547: ishl
+      1548: sipush        4078
+      1551: ior
+      1552: bipush        17
+      1554: iushr
+      1555: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1558: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1561: sipush        3087
+      1564: bipush        12
+      1566: ishl
+      1567: sipush        4078
+      1570: ior
+      1571: bipush        18
+      1573: iushr
+      1574: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1577: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1580: sipush        3087
+      1583: bipush        12
+      1585: ishl
+      1586: sipush        4078
+      1589: ior
+      1590: bipush        19
+      1592: iushr
+      1593: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1596: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1599: sipush        3087
+      1602: bipush        12
+      1604: ishl
+      1605: sipush        4078
+      1608: ior
+      1609: bipush        20
+      1611: iushr
+      1612: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1615: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1618: sipush        3087
+      1621: bipush        12
+      1623: ishl
+      1624: sipush        4078
+      1627: ior
+      1628: bipush        21
+      1630: iushr
+      1631: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1634: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1637: sipush        3087
+      1640: bipush        12
+      1642: ishl
+      1643: sipush        4078
+      1646: ior
+      1647: bipush        22
+      1649: iushr
+      1650: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1653: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1656: sipush        3087
+      1659: bipush        12
+      1661: ishl
+      1662: sipush        4078
+      1665: ior
+      1666: bipush        23
+      1668: iushr
+      1669: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1672: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1675: sipush        3087
+      1678: bipush        12
+      1680: ishl
+      1681: sipush        4078
+      1684: ior
+      1685: bipush        24
+      1687: iushr
+      1688: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1691: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1694: sipush        3087
+      1697: bipush        12
+      1699: ishl
+      1700: sipush        4078
+      1703: ior
+      1704: bipush        25
+      1706: iushr
+      1707: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1710: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1713: sipush        3087
+      1716: bipush        12
+      1718: ishl
+      1719: sipush        4078
+      1722: ior
+      1723: bipush        26
+      1725: iushr
+      1726: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1729: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1732: sipush        3087
+      1735: bipush        12
+      1737: ishl
+      1738: sipush        4078
+      1741: ior
+      1742: bipush        27
+      1744: iushr
+      1745: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1748: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1751: sipush        3087
+      1754: bipush        12
+      1756: ishl
+      1757: sipush        4078
+      1760: ior
+      1761: bipush        28
+      1763: iushr
+      1764: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1767: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1770: sipush        3087
+      1773: bipush        12
+      1775: ishl
+      1776: sipush        4078
+      1779: ior
+      1780: bipush        29
+      1782: iushr
+      1783: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1786: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1789: sipush        3087
+      1792: bipush        12
+      1794: ishl
+      1795: sipush        4078
+      1798: ior
+      1799: bipush        30
+      1801: iushr
+      1802: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1805: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1808: sipush        3087
+      1811: bipush        12
+      1813: ishl
+      1814: sipush        4078
+      1817: ior
+      1818: bipush        31
+      1820: iushr
+      1821: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1824: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1827: sipush        -193
+      1830: bipush        16
+      1832: ishl
+      1833: sipush        18
+      1836: ior
+      1837: bipush        0
+      1839: ishr
+      1840: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1843: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1846: sipush        -193
+      1849: bipush        16
+      1851: ishl
+      1852: sipush        18
+      1855: ior
+      1856: bipush        1
+      1858: ishr
+      1859: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1862: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1865: sipush        -193
+      1868: bipush        16
+      1870: ishl
+      1871: sipush        18
+      1874: ior
+      1875: bipush        2
+      1877: ishr
+      1878: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1881: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1884: sipush        -193
+      1887: bipush        16
+      1889: ishl
+      1890: sipush        18
+      1893: ior
+      1894: bipush        3
+      1896: ishr
+      1897: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1900: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1903: sipush        -193
+      1906: bipush        16
+      1908: ishl
+      1909: sipush        18
+      1912: ior
+      1913: bipush        4
+      1915: ishr
+      1916: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1919: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1922: sipush        -193
+      1925: bipush        16
+      1927: ishl
+      1928: sipush        18
+      1931: ior
+      1932: bipush        5
+      1934: ishr
+      1935: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1938: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1941: sipush        -193
+      1944: bipush        16
+      1946: ishl
+      1947: sipush        18
+      1950: ior
+      1951: bipush        6
+      1953: ishr
+      1954: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1957: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1960: sipush        -193
+      1963: bipush        16
+      1965: ishl
+      1966: sipush        18
+      1969: ior
+      1970: bipush        7
+      1972: ishr
+      1973: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1976: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1979: sipush        -193
+      1982: bipush        16
+      1984: ishl
+      1985: sipush        18
+      1988: ior
+      1989: bipush        8
+      1991: ishr
+      1992: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      1995: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1998: sipush        -193
+      2001: bipush        16
+      2003: ishl
+      2004: sipush        18
+      2007: ior
+      2008: bipush        9
+      2010: ishr
+      2011: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2014: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2017: sipush        -193
+      2020: bipush        16
+      2022: ishl
+      2023: sipush        18
+      2026: ior
+      2027: bipush        10
+      2029: ishr
+      2030: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2033: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2036: sipush        -193
+      2039: bipush        16
+      2041: ishl
+      2042: sipush        18
+      2045: ior
+      2046: bipush        11
+      2048: ishr
+      2049: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2052: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2055: sipush        -193
+      2058: bipush        16
+      2060: ishl
+      2061: sipush        18
+      2064: ior
+      2065: bipush        12
+      2067: ishr
+      2068: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2071: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2074: sipush        -193
+      2077: bipush        16
+      2079: ishl
+      2080: sipush        18
+      2083: ior
+      2084: bipush        13
+      2086: ishr
+      2087: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2090: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2093: sipush        -193
+      2096: bipush        16
+      2098: ishl
+      2099: sipush        18
+      2102: ior
+      2103: bipush        14
+      2105: ishr
+      2106: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2109: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2112: sipush        -193
+      2115: bipush        16
+      2117: ishl
+      2118: sipush        18
+      2121: ior
+      2122: bipush        15
+      2124: ishr
+      2125: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2128: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2131: sipush        -193
+      2134: bipush        16
+      2136: ishl
+      2137: sipush        18
+      2140: ior
+      2141: bipush        16
+      2143: ishr
+      2144: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2147: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2150: sipush        -193
+      2153: bipush        16
+      2155: ishl
+      2156: sipush        18
+      2159: ior
+      2160: bipush        17
+      2162: ishr
+      2163: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2166: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2169: sipush        -193
+      2172: bipush        16
+      2174: ishl
+      2175: sipush        18
+      2178: ior
+      2179: bipush        18
+      2181: ishr
+      2182: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2185: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2188: sipush        -193
+      2191: bipush        16
+      2193: ishl
+      2194: sipush        18
+      2197: ior
+      2198: bipush        19
+      2200: ishr
+      2201: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2204: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2207: sipush        -193
+      2210: bipush        16
+      2212: ishl
+      2213: sipush        18
+      2216: ior
+      2217: bipush        20
+      2219: ishr
+      2220: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2223: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2226: sipush        -193
+      2229: bipush        16
+      2231: ishl
+      2232: sipush        18
+      2235: ior
+      2236: bipush        21
+      2238: ishr
+      2239: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2242: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2245: sipush        -193
+      2248: bipush        16
+      2250: ishl
+      2251: sipush        18
+      2254: ior
+      2255: bipush        22
+      2257: ishr
+      2258: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2261: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2264: sipush        -193
+      2267: bipush        16
+      2269: ishl
+      2270: sipush        18
+      2273: ior
+      2274: bipush        23
+      2276: ishr
+      2277: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2280: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2283: sipush        -193
+      2286: bipush        16
+      2288: ishl
+      2289: sipush        18
+      2292: ior
+      2293: bipush        24
+      2295: ishr
+      2296: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2299: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2302: sipush        -193
+      2305: bipush        16
+      2307: ishl
+      2308: sipush        18
+      2311: ior
+      2312: bipush        25
+      2314: ishr
+      2315: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2318: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2321: sipush        -193
+      2324: bipush        16
+      2326: ishl
+      2327: sipush        18
+      2330: ior
+      2331: bipush        26
+      2333: ishr
+      2334: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2337: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2340: sipush        -193
+      2343: bipush        16
+      2345: ishl
+      2346: sipush        18
+      2349: ior
+      2350: bipush        27
+      2352: ishr
+      2353: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2356: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2359: sipush        -193
+      2362: bipush        16
+      2364: ishl
+      2365: sipush        18
+      2368: ior
+      2369: bipush        28
+      2371: ishr
+      2372: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2375: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2378: sipush        -193
+      2381: bipush        16
+      2383: ishl
+      2384: sipush        18
+      2387: ior
+      2388: bipush        29
+      2390: ishr
+      2391: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2394: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2397: sipush        -193
+      2400: bipush        16
+      2402: ishl
+      2403: sipush        18
+      2406: ior
+      2407: bipush        30
+      2409: ishr
+      2410: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2413: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2416: sipush        -193
+      2419: bipush        16
+      2421: ishl
+      2422: sipush        18
+      2425: ior
+      2426: bipush        31
+      2428: ishr
+      2429: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2432: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2435: sipush        -193
+      2438: bipush        16
+      2440: ishl
+      2441: sipush        18
+      2444: ior
+      2445: bipush        0
+      2447: iushr
+      2448: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2451: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2454: sipush        -193
+      2457: bipush        16
+      2459: ishl
+      2460: sipush        18
+      2463: ior
+      2464: bipush        1
+      2466: iushr
+      2467: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2470: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2473: sipush        -193
+      2476: bipush        16
+      2478: ishl
+      2479: sipush        18
+      2482: ior
+      2483: bipush        2
+      2485: iushr
+      2486: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2489: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2492: sipush        -193
+      2495: bipush        16
+      2497: ishl
+      2498: sipush        18
+      2501: ior
+      2502: bipush        3
+      2504: iushr
+      2505: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2508: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2511: sipush        -193
+      2514: bipush        16
+      2516: ishl
+      2517: sipush        18
+      2520: ior
+      2521: bipush        4
+      2523: iushr
+      2524: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2527: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2530: sipush        -193
+      2533: bipush        16
+      2535: ishl
+      2536: sipush        18
+      2539: ior
+      2540: bipush        5
+      2542: iushr
+      2543: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2546: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2549: sipush        -193
+      2552: bipush        16
+      2554: ishl
+      2555: sipush        18
+      2558: ior
+      2559: bipush        6
+      2561: iushr
+      2562: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2565: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2568: sipush        -193
+      2571: bipush        16
+      2573: ishl
+      2574: sipush        18
+      2577: ior
+      2578: bipush        7
+      2580: iushr
+      2581: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2584: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2587: sipush        -193
+      2590: bipush        16
+      2592: ishl
+      2593: sipush        18
+      2596: ior
+      2597: bipush        8
+      2599: iushr
+      2600: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2603: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2606: sipush        -193
+      2609: bipush        16
+      2611: ishl
+      2612: sipush        18
+      2615: ior
+      2616: bipush        9
+      2618: iushr
+      2619: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2622: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2625: sipush        -193
+      2628: bipush        16
+      2630: ishl
+      2631: sipush        18
+      2634: ior
+      2635: bipush        10
+      2637: iushr
+      2638: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2641: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2644: sipush        -193
+      2647: bipush        16
+      2649: ishl
+      2650: sipush        18
+      2653: ior
+      2654: bipush        11
+      2656: iushr
+      2657: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2660: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2663: sipush        -193
+      2666: bipush        16
+      2668: ishl
+      2669: sipush        18
+      2672: ior
+      2673: bipush        12
+      2675: iushr
+      2676: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2679: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2682: sipush        -193
+      2685: bipush        16
+      2687: ishl
+      2688: sipush        18
+      2691: ior
+      2692: bipush        13
+      2694: iushr
+      2695: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2698: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2701: sipush        -193
+      2704: bipush        16
+      2706: ishl
+      2707: sipush        18
+      2710: ior
+      2711: bipush        14
+      2713: iushr
+      2714: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2717: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2720: sipush        -193
+      2723: bipush        16
+      2725: ishl
+      2726: sipush        18
+      2729: ior
+      2730: bipush        15
+      2732: iushr
+      2733: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2736: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2739: sipush        -193
+      2742: bipush        16
+      2744: ishl
+      2745: sipush        18
+      2748: ior
+      2749: bipush        16
+      2751: iushr
+      2752: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2755: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2758: sipush        -193
+      2761: bipush        16
+      2763: ishl
+      2764: sipush        18
+      2767: ior
+      2768: bipush        17
+      2770: iushr
+      2771: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2774: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2777: sipush        -193
+      2780: bipush        16
+      2782: ishl
+      2783: sipush        18
+      2786: ior
+      2787: bipush        18
+      2789: iushr
+      2790: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2793: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2796: sipush        -193
+      2799: bipush        16
+      2801: ishl
+      2802: sipush        18
+      2805: ior
+      2806: bipush        19
+      2808: iushr
+      2809: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2812: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2815: sipush        -193
+      2818: bipush        16
+      2820: ishl
+      2821: sipush        18
+      2824: ior
+      2825: bipush        20
+      2827: iushr
+      2828: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2831: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2834: sipush        -193
+      2837: bipush        16
+      2839: ishl
+      2840: sipush        18
+      2843: ior
+      2844: bipush        21
+      2846: iushr
+      2847: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2850: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2853: sipush        -193
+      2856: bipush        16
+      2858: ishl
+      2859: sipush        18
+      2862: ior
+      2863: bipush        22
+      2865: iushr
+      2866: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2869: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2872: sipush        -193
+      2875: bipush        16
+      2877: ishl
+      2878: sipush        18
+      2881: ior
+      2882: bipush        23
+      2884: iushr
+      2885: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2888: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2891: sipush        -193
+      2894: bipush        16
+      2896: ishl
+      2897: sipush        18
+      2900: ior
+      2901: bipush        24
+      2903: iushr
+      2904: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2907: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2910: sipush        -193
+      2913: bipush        16
+      2915: ishl
+      2916: sipush        18
+      2919: ior
+      2920: bipush        25
+      2922: iushr
+      2923: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2926: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2929: sipush        -193
+      2932: bipush        16
+      2934: ishl
+      2935: sipush        18
+      2938: ior
+      2939: bipush        26
+      2941: iushr
+      2942: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2945: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2948: sipush        -193
+      2951: bipush        16
+      2953: ishl
+      2954: sipush        18
+      2957: ior
+      2958: bipush        27
+      2960: iushr
+      2961: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2964: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2967: sipush        -193
+      2970: bipush        16
+      2972: ishl
+      2973: sipush        18
+      2976: ior
+      2977: bipush        28
+      2979: iushr
+      2980: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      2983: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      2986: sipush        -193
+      2989: bipush        16
+      2991: ishl
+      2992: sipush        18
+      2995: ior
+      2996: bipush        29
+      2998: iushr
+      2999: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      3002: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      3005: sipush        -193
+      3008: bipush        16
+      3010: ishl
+      3011: sipush        18
+      3014: ior
+      3015: bipush        30
+      3017: iushr
+      3018: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      3021: getstatic     #12                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      3024: sipush        -193
+      3027: bipush        16
+      3029: ishl
+      3030: sipush        18
+      3033: ior
+      3034: bipush        31
+      3036: iushr
+      3037: invokevirtual #7                  // Method java/io/PrintStream.println:(I)V
+      3040: return
+}
+SourceFile: "Bitshifts.j"

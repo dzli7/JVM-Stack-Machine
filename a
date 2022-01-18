@@ -1,0 +1,401 @@
+Compiled from "Arithmetic.java"
+public class Arithmetic {
+  public Arithmetic();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       3: iconst_0
+       4: iconst_0
+       5: invokestatic  #3                  // Method add:(II)I
+       8: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+      11: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      14: iconst_0
+      15: iconst_1
+      16: invokestatic  #3                  // Method add:(II)I
+      19: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+      22: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      25: iconst_1
+      26: iconst_0
+      27: invokestatic  #3                  // Method add:(II)I
+      30: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+      33: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      36: iconst_2
+      37: iconst_3
+      38: invokestatic  #3                  // Method add:(II)I
+      41: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+      44: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      47: iconst_3
+      48: iconst_2
+      49: invokestatic  #3                  // Method add:(II)I
+      52: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+      55: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      58: bipush        10
+      60: bipush        -100
+      62: invokestatic  #3                  // Method add:(II)I
+      65: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+      68: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      71: bipush        -100
+      73: bipush        10
+      75: invokestatic  #3                  // Method add:(II)I
+      78: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+      81: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      84: sipush        1000
+      87: bipush        -100
+      89: invokestatic  #3                  // Method add:(II)I
+      92: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+      95: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      98: bipush        -100
+     100: sipush        1000
+     103: invokestatic  #3                  // Method add:(II)I
+     106: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     109: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     112: bipush        -123
+     114: sipush        -456
+     117: invokestatic  #3                  // Method add:(II)I
+     120: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     123: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     126: sipush        -456
+     129: bipush        -123
+     131: invokestatic  #3                  // Method add:(II)I
+     134: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     137: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     140: ldc           #5                  // int 1073741825
+     142: ldc           #6                  // int 1073741826
+     144: invokestatic  #3                  // Method add:(II)I
+     147: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     150: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     153: ldc           #7                  // int -2147483647
+     155: ldc           #8                  // int -2147483646
+     157: invokestatic  #3                  // Method add:(II)I
+     160: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     163: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     166: iconst_0
+     167: iconst_0
+     168: invokestatic  #9                  // Method sub:(II)I
+     171: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     174: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     177: iconst_0
+     178: iconst_1
+     179: invokestatic  #9                  // Method sub:(II)I
+     182: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     185: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     188: iconst_1
+     189: iconst_0
+     190: invokestatic  #9                  // Method sub:(II)I
+     193: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     196: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     199: iconst_3
+     200: bipush        10
+     202: invokestatic  #9                  // Method sub:(II)I
+     205: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     208: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     211: bipush        10
+     213: iconst_3
+     214: invokestatic  #9                  // Method sub:(II)I
+     217: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     220: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     223: bipush        10
+     225: bipush        -100
+     227: invokestatic  #9                  // Method sub:(II)I
+     230: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     233: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     236: bipush        -100
+     238: bipush        10
+     240: invokestatic  #9                  // Method sub:(II)I
+     243: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     246: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     249: sipush        1000
+     252: bipush        -100
+     254: invokestatic  #9                  // Method sub:(II)I
+     257: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     260: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     263: bipush        -100
+     265: sipush        1000
+     268: invokestatic  #9                  // Method sub:(II)I
+     271: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     274: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     277: bipush        -123
+     279: sipush        -456
+     282: invokestatic  #9                  // Method sub:(II)I
+     285: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     288: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     291: sipush        -456
+     294: bipush        -123
+     296: invokestatic  #9                  // Method sub:(II)I
+     299: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     302: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     305: ldc           #10                 // int 2147483647
+     307: ldc           #11                 // int -2147483648
+     309: invokestatic  #9                  // Method sub:(II)I
+     312: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     315: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     318: iconst_0
+     319: ldc           #11                 // int -2147483648
+     321: invokestatic  #9                  // Method sub:(II)I
+     324: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     327: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     330: iconst_0
+     331: iconst_0
+     332: invokestatic  #12                 // Method mul:(II)I
+     335: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     338: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     341: iconst_0
+     342: bipush        100
+     344: invokestatic  #12                 // Method mul:(II)I
+     347: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     350: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     353: bipush        100
+     355: iconst_0
+     356: invokestatic  #12                 // Method mul:(II)I
+     359: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     362: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     365: bipush        12
+     367: bipush        34
+     369: invokestatic  #12                 // Method mul:(II)I
+     372: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     375: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     378: bipush        10
+     380: bipush        -11
+     382: invokestatic  #12                 // Method mul:(II)I
+     385: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     388: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     391: bipush        -10
+     393: bipush        11
+     395: invokestatic  #12                 // Method mul:(II)I
+     398: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     401: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     404: bipush        -100
+     406: bipush        -100
+     408: invokestatic  #12                 // Method mul:(II)I
+     411: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     414: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     417: iconst_1
+     418: ldc           #11                 // int -2147483648
+     420: invokestatic  #12                 // Method mul:(II)I
+     423: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     426: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     429: iconst_1
+     430: ldc           #10                 // int 2147483647
+     432: invokestatic  #12                 // Method mul:(II)I
+     435: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     438: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     441: ldc           #11                 // int -2147483648
+     443: iconst_m1
+     444: invokestatic  #12                 // Method mul:(II)I
+     447: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     450: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     453: ldc           #13                 // int 123456
+     455: ldc           #14                 // int 987654
+     457: invokestatic  #12                 // Method mul:(II)I
+     460: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     463: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     466: ldc           #15                 // int -123456
+     468: ldc           #14                 // int 987654
+     470: invokestatic  #12                 // Method mul:(II)I
+     473: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     476: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     479: ldc           #13                 // int 123456
+     481: ldc           #16                 // int -987654
+     483: invokestatic  #12                 // Method mul:(II)I
+     486: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     489: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     492: ldc           #15                 // int -123456
+     494: ldc           #16                 // int -987654
+     496: invokestatic  #12                 // Method mul:(II)I
+     499: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     502: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     505: iconst_0
+     506: iconst_1
+     507: invokestatic  #17                 // Method div:(II)I
+     510: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     513: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     516: bipush        10
+     518: iconst_1
+     519: invokestatic  #17                 // Method div:(II)I
+     522: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     525: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     528: bipush        20
+     530: iconst_3
+     531: invokestatic  #17                 // Method div:(II)I
+     534: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     537: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     540: bipush        23
+     542: bipush        24
+     544: invokestatic  #17                 // Method div:(II)I
+     547: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     550: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     553: bipush        100
+     555: bipush        20
+     557: invokestatic  #17                 // Method div:(II)I
+     560: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     563: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     566: bipush        -100
+     568: bipush        20
+     570: invokestatic  #17                 // Method div:(II)I
+     573: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     576: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     579: bipush        100
+     581: bipush        -20
+     583: invokestatic  #17                 // Method div:(II)I
+     586: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     589: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     592: bipush        -100
+     594: bipush        -20
+     596: invokestatic  #17                 // Method div:(II)I
+     599: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     602: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     605: bipush        100
+     607: iconst_3
+     608: invokestatic  #17                 // Method div:(II)I
+     611: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     614: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     617: bipush        -100
+     619: iconst_3
+     620: invokestatic  #17                 // Method div:(II)I
+     623: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     626: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     629: bipush        100
+     631: bipush        -3
+     633: invokestatic  #17                 // Method div:(II)I
+     636: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     639: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     642: bipush        -100
+     644: bipush        -3
+     646: invokestatic  #17                 // Method div:(II)I
+     649: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     652: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     655: iconst_0
+     656: iconst_1
+     657: invokestatic  #18                 // Method rem:(II)I
+     660: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     663: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     666: bipush        10
+     668: iconst_1
+     669: invokestatic  #18                 // Method rem:(II)I
+     672: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     675: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     678: bipush        20
+     680: iconst_3
+     681: invokestatic  #18                 // Method rem:(II)I
+     684: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     687: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     690: bipush        23
+     692: bipush        24
+     694: invokestatic  #18                 // Method rem:(II)I
+     697: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     700: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     703: bipush        100
+     705: bipush        20
+     707: invokestatic  #18                 // Method rem:(II)I
+     710: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     713: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     716: bipush        -100
+     718: bipush        20
+     720: invokestatic  #18                 // Method rem:(II)I
+     723: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     726: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     729: bipush        100
+     731: bipush        -20
+     733: invokestatic  #18                 // Method rem:(II)I
+     736: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     739: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     742: bipush        -100
+     744: bipush        -20
+     746: invokestatic  #18                 // Method rem:(II)I
+     749: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     752: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     755: bipush        100
+     757: iconst_3
+     758: invokestatic  #18                 // Method rem:(II)I
+     761: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     764: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     767: bipush        -100
+     769: iconst_3
+     770: invokestatic  #18                 // Method rem:(II)I
+     773: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     776: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     779: bipush        100
+     781: bipush        -3
+     783: invokestatic  #18                 // Method rem:(II)I
+     786: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     789: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     792: bipush        -100
+     794: bipush        -3
+     796: invokestatic  #18                 // Method rem:(II)I
+     799: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     802: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     805: iconst_0
+     806: invokestatic  #19                 // Method neg:(I)I
+     809: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     812: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     815: iconst_1
+     816: invokestatic  #19                 // Method neg:(I)I
+     819: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     822: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     825: bipush        -10
+     827: invokestatic  #19                 // Method neg:(I)I
+     830: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     833: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     836: bipush        100
+     838: invokestatic  #19                 // Method neg:(I)I
+     841: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     844: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     847: sipush        -1000
+     850: invokestatic  #19                 // Method neg:(I)I
+     853: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     856: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     859: ldc           #10                 // int 2147483647
+     861: invokestatic  #19                 // Method neg:(I)I
+     864: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     867: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     870: ldc           #11                 // int -2147483648
+     872: invokestatic  #19                 // Method neg:(I)I
+     875: invokevirtual #4                  // Method java/io/PrintStream.println:(I)V
+     878: return
+
+  public static int add(int, int);
+    Code:
+       0: iload_0
+       1: iload_1
+       2: iadd
+       3: ireturn
+
+  public static int sub(int, int);
+    Code:
+       0: iload_0
+       1: iload_1
+       2: isub
+       3: ireturn
+
+  public static int mul(int, int);
+    Code:
+       0: iload_0
+       1: iload_1
+       2: imul
+       3: ireturn
+
+  public static int div(int, int);
+    Code:
+       0: iload_0
+       1: iload_1
+       2: idiv
+       3: ireturn
+
+  public static int rem(int, int);
+    Code:
+       0: iload_0
+       1: iload_1
+       2: irem
+       3: ireturn
+
+  public static int neg(int);
+    Code:
+       0: iload_0
+       1: ineg
+       2: ireturn
+}
